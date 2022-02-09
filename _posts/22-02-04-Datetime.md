@@ -3,8 +3,6 @@ title: 날짜 및 시간
 category: Python
 ---
 
-# 날짜 및 시간
-
 > 현재 날짜 및 시간
 
 ```python

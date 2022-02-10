@@ -20,9 +20,9 @@ order: 3
                 <input type=checkbox>ㅤTIL Migration<br>
                 <input type=checkbox>ㅤ블로그 스터디 2차 세팅<br>
                 <input type=checkbox>ㅤ파이썬 수업 준비<br>
-                <input type=checkbox>ㅤ오후 7시 파이썬 수업<br>
             </td>
             <td>
+                🍓ㅤ내일 오후 7시 - 파이썬 수업<br>
                 🥦ㅤ화요일 오후 8시 - 브로콜리<br>
                 🥦ㅤFlask 구축<br>
             </td>

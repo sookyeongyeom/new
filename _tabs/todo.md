@@ -18,13 +18,12 @@ order: 3
                 <input type=checkbox>ㅤClean Code 시작<br>
                 <input type=checkbox checked>ㅤ깃허브 블로그 꾸미기<br>
                 <input type=checkbox>ㅤTIL Migration<br>
-                <input type=checkbox>ㅤ블로그 스터디 2차 세팅<br>
-                <input type=checkbox>ㅤ파이썬 수업 준비<br>
+                <input type=checkbox checked>ㅤ블로그 스터디 신규회원 초대<br>
             </td>
             <td>
-                🍓ㅤ내일 오후 7시 - 파이썬 수업<br>
-                🥦ㅤ화요일 오후 8시 - 브로콜리<br>
-                🥦ㅤFlask 구축<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ내일 오후 7시 - 파이썬 수업<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 구축<br>
             </td>
         </tr>
     </tbody>
@@ -46,9 +45,9 @@ order: 3
                 <input type=checkbox checked>ㅤ오후 8시 파이썬 수업<br>
             </td>
             <td>
-                🍓ㅤ내일 오후 7시 - 파이썬 수업<br>
-                🥦ㅤ화요일 오후 8시 - 브로콜리<br>
-                🥦ㅤFlask 구축 <br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ내일 오후 7시 - 파이썬 수업<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 구축 <br>
             </td>
         </tr>
     </tbody>

@@ -387,7 +387,7 @@ img[data-src] {
   margin-bottom: 1.5rem;
 
   > table {
-    min-width: 100%;
+    width: 100%;
     overflow-x: auto;
     border-spacing: 0;
 
@@ -396,6 +396,7 @@ img[data-src] {
 
       th {
         @extend %table-cell;
+        width:50%;
       }
     }
 

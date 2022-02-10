@@ -22,7 +22,7 @@ layout: page
           {{ post.date | date: '%m' }}
         </span>
         <a href="{{ post.url | relative_url }}"><span style="color:rgb(218, 139, 139);">{{
-            post.category }} › </span>{{
+            post.categories[0] }} › </span>{{
           post.title }}</a>
       </div>
     </li>

@@ -11,7 +11,7 @@ order: 4
 <br>
 <span style="font-weight:600; font-size:1.2em;">
 I love to develop things.<br>
-I'm studying whatever I'm interested in!
+I study whatever I like ! 😺
 </span>
 <br><br>
 <span style="font-weight:700; font-size:1.5em;">💻 Technology Stack 💻</span>

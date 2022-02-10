@@ -113,7 +113,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -428,6 +428,13 @@ img[data-src] {
     margin-bottom: 1.5rem;
   }
 
+  h2 {
+    color: rgb(75, 75, 75);
+    font-weight: 600;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 10px;
+  }
+
   a {
     &.img-link {
       @extend %no-cursor;
@@ -482,6 +489,11 @@ img[data-src] {
   margin-top: 2rem;
   overflow-wrap: break-word;
   word-wrap: break-word;
+
+  h1 {
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 10px;
+  }
 
   a {
     &:not(.img-link) {

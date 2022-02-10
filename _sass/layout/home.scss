@@ -62,8 +62,12 @@
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--main-border-color);
 
+    a {
+      color: rgb(75, 75, 75);
+    }
     a:hover {
-      @extend %link-hover;
+      color: rgb(218, 139, 139);
+      text-decoration-line: none;
     }
 
     h1 {

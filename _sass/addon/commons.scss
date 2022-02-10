@@ -37,10 +37,27 @@ body {
   font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
 }
 
+a {
+  color:rgb(75, 75, 75);
+}
+
+a:hover {
+  color: rgb(218, 139, 139);
+  text-decoration: none !important;
+}
+
 /* --- Typography --- */
+
+.post {
+  color: rgb(75, 75, 75);
+}
 
 .post ul {
   list-style-type: square;
+}
+
+.post ul li::marker {
+  color:rgb(218, 139, 139);
 }
 
 h1 {
@@ -48,6 +65,7 @@ h1 {
 
   font-size: 1.9rem;
   font-weight: bold;
+  color: rgb(75, 75, 75);
 }
 
 h2 {
@@ -177,7 +195,7 @@ footer {
     }
 
     &:hover {
-      @extend %link-hover;
+      // @extend %link-hover;
 
       @include no-text-decoration;
     }
@@ -283,6 +301,7 @@ img[data-src] {
 }
 
 #access-lastmod {
+
   li {
     height: 1.8rem;
     overflow: hidden;
@@ -295,12 +314,13 @@ img[data-src] {
 
   a {
     &:hover {
-      @extend %link-hover;
+      //@extend %link-hover;
+      @include no-text-decoration;
     }
 
-    @extend %no-bottom-border;
+    //@extend %no-bottom-border;
 
-    color: inherit;
+    color:rgb(75, 75, 75);
   }
 
 }
@@ -423,7 +443,8 @@ img[data-src] {
 
     &:hover {
       code {
-        @extend %link-hover;
+        // @extend %link-hover;
+        @include no-text-decoration;
       }
     }
   } // a
@@ -444,7 +465,8 @@ img[data-src] {
     }
 
     &:hover {
-      @extend %link-hover;
+      // @extend %link-hover;
+      @include no-text-decoration;
     }
   }
 
@@ -465,7 +487,8 @@ img[data-src] {
       @extend %link-underline;
 
       &:hover {
-        @extend %link-hover;
+        // @extend %link-hover;
+        @include no-text-decoration;
       }
     }
 
@@ -527,6 +550,7 @@ img[data-src] {
 
 .tag:hover {
   @extend %tag-hover;
+  @include no-text-decoration;
 }
 
 .post-tag {
@@ -545,6 +569,7 @@ img[data-src] {
 
   &:hover {
     @extend %tag-hover;
+    @include no-text-decoration;
 
     border-bottom: none;
     text-decoration: none;
@@ -844,6 +869,7 @@ $sidebar-display: "sidebar-display";
 
       &:hover > i {
         color: var(--sidebar-active-color);
+        @include no-text-decoration;
       }
     }
 
@@ -914,7 +940,8 @@ $sidebar-display: "sidebar-display";
     padding-left: 0.5rem;
 
     a:hover {
-      @extend %link-hover;
+      // @extend %link-hover;
+      @include no-text-decoration;
     }
 
     span {
@@ -1013,7 +1040,8 @@ $sidebar-display: "sidebar-display";
 
   a {
     &:hover {
-      @extend %link-hover;
+      // @extend %link-hover;
+      @include no-text-decoration;
     }
 
     @extend %link-color;
@@ -1067,8 +1095,14 @@ $sidebar-display: "sidebar-display";
   .categories,
   #tags,
   #archives {
+
     a:not(:hover) {
       @extend %no-bottom-border;
+      @include no-text-decoration;
+    }
+    a:hover {
+      @extend %no-bottom-border;
+      @include no-text-decoration;
     }
   }
 }

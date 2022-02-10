@@ -23,6 +23,16 @@ layout: page
 {% assign pinned_num = 0 %}
 {% endif %}
 
+<!-- Total post size -->
+
+{% for category in site.categories %}
+{% assign category_name = category | first %}
+{% assign many = site.categories[category_name] | size %}
+{% assign total = total | plus: many %}
+{% if forloop.last %}
+<h1>Total ({{ total }})</h1>
+{% endif %}
+{% endfor %}
 
 <!-- Get default posts -->
 

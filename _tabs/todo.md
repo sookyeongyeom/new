@@ -14,7 +14,7 @@ order: 3
     <tbody>
         <tr>
             <td>
-                <input type=checkbox>ㅤTIL Migration 마무리<br>
+                <input type=checkbox checked>ㅤTIL Migration 마무리<br>
                 <input type=checkbox>ㅤ파이썬 수업 준비<br>
                 <input type=checkbox>ㅤ오후 7시 파이썬 수업<br>
             </td>

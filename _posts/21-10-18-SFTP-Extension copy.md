@@ -30,7 +30,6 @@ Host PC와 Guest PC 간의 소스 코드 공유가 녹록치 않다는 점이다
 바로 이런 경우에 SFTP 확장을 사용하면 된다.
 
 
----
 
 
 # VSCode에서 SFTP Extension을 사용하는 방법
@@ -59,7 +58,7 @@ $ sudo ufw status (방화벽이 inactive 상태인지 확인*)
 ```
  
 
-- SSH는 active, 방화벽은 inactive 상태라면 1. SFTP Extension 설치 로 넘어가주세요.
+- SSH는 active, 방화벽은 inactive 상태라면 **1. SFTP Extension 설치** 로 넘어가주세요.
 
 - 만약 SSH가 inactive 상태라면
 
@@ -115,21 +114,21 @@ $ sudo ufw allow ssh
 
 - 원하는대로 설정을 변경해준다.
 
-+ name : 연결에 대해 설명
+    + name : 연결에 대해 설명
 
-+ host : 연결할 대상 (서버) 의 IP 주소
+    + host : 연결할 대상 (서버) 의 IP 주소
 
-+ protocol : sftp
+    + protocol : sftp
 
-+ port : 22
+    + port : 22
 
-+ username : 연결할 대상 (서버) 사용자의 이름
+    + username : 연결할 대상 (서버) 사용자의 이름
 
-+ password : 연결할 대상 (서버) 사용자의 비밀번호
+    + password : 연결할 대상 (서버) 사용자의 비밀번호
 
-+ remotePath : 로컬과 연결할 서버의 파일 경로
+    + remotePath : 로컬과 연결할 서버의 파일 경로
 
-+ uploadOnSave : True일 경우, 로컬에서 변경 사항을 저장할 때마다 서버 파일에 동기화됨
+    + uploadOnSave : True일 경우, 로컬에서 변경 사항을 저장할 때마다 서버 파일에 동기화됨
 
 - 이 외 다른 옵션들도 있으니 필요하면 찾아보고 추가해준다.
 

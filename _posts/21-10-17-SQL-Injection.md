@@ -3,43 +3,37 @@ title: SQL Injection
 category: Webhacking
 ---
 
-SQL Injection : 개념 및 공격 기법
+# SQL Injection : 개념 및 공격 기법
 
  
 
-1. SQL Injection 개념
+## 1. SQL Injection 개념
 
 보안상의 취약점을 이용하여, 임의의 SQL문을 주입하고 실행되게 하여 DB가 비정상적인 동작을 하도록 조작하는 행위
 
-[1] OWASP TOP 10 중 첫 번째에 속해 있으며, 공격이 비교적 쉬운 편이고 공격에 성공할 경우 큰 피해를 입힐 수 있음
+1. OWASP TOP 10 중 첫 번째에 속해 있으며, 공격이 비교적 쉬운 편이고 공격에 성공할 경우 큰 피해를 입힐 수 있음
 
-[2] 인증 우회, 시스템 명령어 삽입, 웹쉘 생성 등
-
- 
-
-1-1. SQL Query란?
-
-관계형 데이터베이스를 다루는 질의 언어
+2. 인증 우회, 시스템 명령어 삽입, 웹쉘 생성 등
 
  
 
-2. SQL Injection 공격 기법
+## 2. SQL Injection 공격 기법
 
-[1] Error based SQL Injection
+1. Error based SQL Injection
 
-[2] UNION based SQL Injection
+2. UNION based SQL Injection
 
-[3] Blind SQL Injection (1)
+3. Blind SQL Injection (1)
 
-[4] Blind SQL Injection (2)
+4. Blind SQL Injection (2)
 
-[5] Stored Procedure SQL Injection
+5. Stored Procedure SQL Injection
 
-[6] Mass SQL Injection
+6. Mass SQL Injection
 
- 
+<br>
 
-2-1. Error based SQL Injection
+### 2-1. Error based SQL Injection
 
 [1] 논리적 에러를 이용함
 
@@ -47,7 +41,7 @@ SQL Injection : 개념 및 공격 기법
 
  
 
-▶ EXAMPLE (로그인)
+#### EXAMPLE (로그인)
 
 ① 공격 대상 : SELECT * FROM Users WHERE id = 'INPUT1' AND password = 'INPUT2'
 
@@ -57,9 +51,9 @@ SQL Injection : 개념 및 공격 기법
 
 ④ 결과 : Users 테이블에 있는 모든 정보를 조회하게 됨으로써 가장 먼저 만들어진 계정 (보통 관리자 계정) 으로 로그인할 수 있게 됨 → 관리자 계정 탈취
 
- 
+<br>
 
-2-2. UNION based SQL Injection
+### 2-2. UNION based SQL Injection
 
 [1] UNION : 두 개의 쿼리문에 대한 결과를 통합해 하나의 테이블로 보여주게 하는 키워드
 
@@ -73,7 +67,7 @@ SQL Injection : 개념 및 공격 기법
 
  
 
-▶ EXAMPLE (게시글 조회)
+#### EXAMPLE (게시글 조회)
 
 ① 공격 대상 : SELECT * FROM Board WHERE title LIKE '%INPUT%' OR contents '%INPUT%'
 
@@ -85,9 +79,9 @@ SQL Injection : 개념 및 공격 기법
 
 ⑤ 결과 : 사용자의 개인정보가 게시글과 함께 화면에 보여짐
 
- 
+<br>
 
-2-3. Blind SQL Injection (1)
+### 2-3. Blind SQL Injection (1)
 
 [1] Boolean based SQL
 
@@ -101,7 +95,7 @@ SQL Injection : 개념 및 공격 기법
 
  
 
-▶ EXAMPLE (로그인 폼 통해 DB의 테이블 명 알아내기)
+#### EXAMPLE (로그인 폼 통해 DB의 테이블 명 알아내기)
 
 ① 공격 대상 : SELECT * FROM Users WHERE id = 'INPUT1' AND password = 'INPUT2'
 
@@ -113,9 +107,9 @@ SQL Injection : 개념 및 공격 기법
 
 ⑤ 결과 : 거짓이면 로그인 실패가 될 것이고, 참이 될 때까지 뒤의 100이라는 숫자를 변경해 가면서 비교하면 된다. 공격자는 이 프로세스를 자동화 스크립트로 만들어 단기간 내에 테이블 명을 알아낼 수 있다. 
 
- 
+<br>
 
-2-4. Blind SQL Injection (2)
+### 2-4. Blind SQL Injection (2)
 
 [1] Time based SQL
 
@@ -129,7 +123,7 @@ SQL Injection : 개념 및 공격 기법
 
  
 
-▶ EXAMPLE (로그인 폼 통해 DB의 길이 알아내기)
+#### EXAMPLE (로그인 폼 통해 DB의 길이 알아내기)
 
 ① 공격 대상 : SELECT * FROM Users WHERE id = 'INPUT1' AND password = 'INPUT2'
 
@@ -143,9 +137,9 @@ SQL Injection : 개념 및 공격 기법
 
 ⑥ 예외 : SLEEP이라는 단어가 치환 처리 되어있는 경우, BENCHMARK나 WAIT 함수를 사용할 수 있다.
 
- 
+<br>
 
-2-5. Stored Procedure SQL Injection
+### 2-5. Stored Procedure SQL Injection
 
 [1] Stored Procedure (저장 프로시저) : 편의를 위해 일련의 쿼리들을 모아 하나의 함수처럼 모아둔 것
 
@@ -155,9 +149,9 @@ SQL Injection : 개념 및 공격 기법
 
 [4] 공격에 성공한다면 서버에 직접적인 피해를 입힐 수 있음.
 
- 
+<br>
 
-2-6. Mass SQL Injection
+### 2-6. Mass SQL Injection
 
 [1] 다량의 SQL Injection 공격
 
@@ -171,7 +165,7 @@ SQL Injection : 개념 및 공격 기법
 
 [6] 이렇게 감염된 좀비 PC들은 DDoS* 공격에 사용됨.
 
- 
+
 
 * 인코딩 : 문자들의 집합을 부호화하는 방법. 즉, 컴퓨터가 이용할 수 있는 신호로 만드는 것
 

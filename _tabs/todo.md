@@ -7,16 +7,35 @@ order: 3
 <table>
     <thead>
         <tr align=center>
-            <th>22/02/10 목</th>
+            <th>22/02/12 토</th>
             <th>Schedules</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>
-                <input type=checkbox checked>ㅤTIL Migration 마무리<br>
-                <input type=checkbox>ㅤ파이썬 수업 준비<br>
-                <input type=checkbox>ㅤ오후 7시 파이썬 수업<br>
+                <input type=checkbox checked>ㅤ저녁 약속<br>
+                <input type=checkbox>ㅤ연락 답장
+            </td>
+            <td>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 구축<br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr align=center>
+            <th>22/02/11 금</th>
+            <th>Schedules</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input type=checkbox checked>ㅤTIL Migration 마무리
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>

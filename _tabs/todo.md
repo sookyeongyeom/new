@@ -14,7 +14,7 @@ order: 3
     <tbody>
         <tr>
             <td>
-                <input type=checkbox>ㅤ티스토리 잔디 다크 모드 작업<br>
+                <input type=checkbox checked>ㅤ티스토리 잔디 다크 모드 작업<br>
                 <input type=checkbox>ㅤ브로콜리 백엔드 작업<br>
             </td>
             <td>

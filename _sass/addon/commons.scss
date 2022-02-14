@@ -72,6 +72,7 @@ h2 {
   @extend %heading;
   @extend %section;
   @extend %anchor-relative;
+  color: rgb(75, 75, 75);
 
   font-size: 1.5rem;
 }
@@ -80,6 +81,7 @@ h3 {
   @extend %heading;
   @extend %section;
   @extend %anchor;
+  color: rgb(75, 75, 75);
 
   font-size: 1.2rem;
 }
@@ -88,6 +90,7 @@ h4 {
   @extend %heading;
   @extend %section;
   @extend %anchor;
+  color: rgb(75, 75, 75);
 
   font-size: 1.15rem;
 }
@@ -96,6 +99,7 @@ h5 {
   @extend %heading;
   @extend %section;
   @extend %anchor;
+  color: rgb(75, 75, 75);
 
   font-size: 1.1rem;
 }

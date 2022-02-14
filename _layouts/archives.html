@@ -23,7 +23,6 @@ layout: page
         </span>
         {% assign many = post.categories | size %}
         {% assign last = many | minus: 1 %}
-        {% capture _category_url %}/categories/{{ post.categories[last] | slugify | url_encode }}/{% endcapture %}
         <a href="{{ post.url | relative_url }}"><span style="color:rgb(218, 139, 139);">{{
             post.categories[last] }} › </span>{{
           post.title }}</a>

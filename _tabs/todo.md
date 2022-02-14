@@ -7,6 +7,28 @@ order: 3
 <table>
     <thead>
         <tr align=center>
+            <th>22/02/14 월</th>
+            <th>Schedules</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input type=checkbox>ㅤ브로콜리 백엔드 작업<br>
+                <input type=checkbox>ㅤ오후 1시 풀씨 면접<br>
+                <input type=checkbox>ㅤ저녁 약속
+            </td>
+            <td>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 구축<br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr align=center>
             <th>22/02/13 일</th>
             <th>Schedules</th>
         </tr>
@@ -14,8 +36,7 @@ order: 3
     <tbody>
         <tr>
             <td>
-                <input type=checkbox checked>ㅤ티스토리 잔디 다크 모드 작업<br>
-                <input type=checkbox>ㅤ브로콜리 백엔드 작업<br>
+                <input type=checkbox checked>ㅤ티스토리 잔디 다크 모드 작업
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>

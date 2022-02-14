@@ -14,8 +14,8 @@ order: 3
     <tbody>
         <tr>
             <td>
-                <input type=checkbox>ㅤ브로콜리 백엔드 작업<br>
-                <input type=checkbox>ㅤ오후 1시 풀씨 면접<br>
+                <input type=checkbox checked>ㅤ브로콜리 백엔드 작업<br>
+                <input type=checkbox checked>ㅤ오후 1시 풀씨 면접<br>
                 <input type=checkbox>ㅤ저녁 약속
             </td>
             <td>

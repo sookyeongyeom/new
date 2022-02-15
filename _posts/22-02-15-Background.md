@@ -44,13 +44,13 @@ $ disown -h
 - 현재 Background 작업 상태 확인
 
 ```bash
-jobs
+$ jobs
 ```
 
 - Foreground로 옮기기
 
 ```bash
-fg
+$ fg
 ```
 
 <br>
@@ -58,7 +58,7 @@ fg
 > Background 작업 확인 (특정 포트)
 
 ```bash
-netstat -nap | grep [포트번호]
+$ netstat -nap | grep [포트번호]
 ```
 
 <br>
@@ -66,5 +66,5 @@ netstat -nap | grep [포트번호]
 > Background 프로세스 종료
 
 ```bash
-kill -9 [프로세스ID]
+$ kill -9 [프로세스ID]
 ```

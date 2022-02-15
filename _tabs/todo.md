@@ -7,6 +7,29 @@ order: 3
 <table>
     <thead>
         <tr align=center>
+            <th>22/02/15 화</th>
+            <th>Schedules</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input type=checkbox checked>ㅤ오후 8시 브로콜리 회의<br>
+                <input type=checkbox checked>ㅤ브로콜리 Flask 구축<br>
+                <input type=checkbox checked>ㅤ브로콜리 백엔드 배포<br>
+                <input type=checkbox checked>ㅤ브로콜리 신규회원 정보<br>
+            </td>
+            <td>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 구축<br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr align=center>
             <th>22/02/14 월</th>
             <th>Schedules</th>
         </tr>
@@ -16,7 +39,7 @@ order: 3
             <td>
                 <input type=checkbox checked>ㅤ브로콜리 백엔드 작업<br>
                 <input type=checkbox checked>ㅤ오후 1시 풀씨 면접<br>
-                <input type=checkbox>ㅤ저녁 약속
+                <input type=checkbox checked>ㅤ저녁 약속
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>

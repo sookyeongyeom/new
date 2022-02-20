@@ -7,6 +7,49 @@ order: 3
 <table>
     <thead>
         <tr align=center>
+            <th>22/02/21 월</th>
+            <th>Schedules</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input type=checkbox>ㅤ브로콜리 서버 재구축<br>
+                <input type=checkbox>ㅤ파이썬 수업 일정 잡기<br>
+            </td>
+            <td>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 재구축<br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr align=center>
+            <th>22/02/20 일</th>
+            <th>Schedules</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input type=checkbox checked>ㅤ생일<br>
+                <input type=checkbox checked>ㅤ오전 11시 강남<br>
+                <input type=checkbox checked>ㅤ오후 5시 저녁 식사<br>
+            </td>
+            <td>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 재구축<br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr align=center>
             <th>22/02/19 토</th>
             <th>Schedules</th>
         </tr>
@@ -14,10 +57,9 @@ order: 3
     <tbody>
         <tr>
             <td>
-                <input type=checkbox>ㅤ브로콜리 Flask 재구축<br>
-                <input type=checkbox>ㅤ브로콜리 크롤링 로직 세부 개선 작업<br>
+                <input type=checkbox checked>ㅤ브로콜리 크롤링 로직 세부 개선 작업<br>
                 <input type=checkbox checked>ㅤLOS 레포 정리 마무리<br>
-                <input type=checkbox>ㅤ점심 약속<br>
+                <input type=checkbox checked>ㅤ점심 약속<br>
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>

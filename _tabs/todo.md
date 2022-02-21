@@ -14,8 +14,7 @@ order: 3
     <tbody>
         <tr>
             <td>
-                <input type=checkbox>ㅤ브로콜리 서버 재구축<br>
-                <input type=checkbox>ㅤ파이썬 수업 일정 잡기<br>
+                <input type=checkbox checked>ㅤ브로콜리 서버 재구축<br>
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>

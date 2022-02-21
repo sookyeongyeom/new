@@ -1,5 +1,5 @@
 ---
-title: Nginx Gunicorn Flask
+title: Flask production server (Nginx+Gunicorn)
 category: Flask
 ---
 

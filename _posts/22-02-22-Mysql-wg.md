@@ -1,6 +1,6 @@
 ---
 title: Mysql 레코드 단위로 정돈하여 출력하기
-category: Mysql
+category: MySql
 ---
 
 > Mysql 레코드 단위로 정돈하여 출력하기

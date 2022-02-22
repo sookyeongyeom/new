@@ -164,6 +164,12 @@ $ systemctl restart nginx
 ```bash
 $ nginx -t
 ```
+```bash
+$ systemctl stop nginx
+```
+```bash
+$ systemctl start nginx
+```
 
 <br>
 

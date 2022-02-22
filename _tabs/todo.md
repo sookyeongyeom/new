@@ -14,9 +14,9 @@ order: 3
     <tbody>
         <tr>
             <td>
-                <input type=checkbox >ㅤ점심 약속<br>
-                <input type=checkbox >ㅤ오후 8시 브로콜리 회의<br>
-                <input type=checkbox >ㅤ브로콜리 백엔드 세부 개선<br>
+                <input type=checkbox checked>ㅤ점심 약속<br>
+                <input type=checkbox checked>ㅤ오후 8시 브로콜리 회의<br>
+                <input type=checkbox checked>ㅤ브로콜리 백엔드 세부 개선<br>
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>

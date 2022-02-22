@@ -19,13 +19,15 @@ Gunicorn은 포트 바인딩 또는 유닉스 소켓 바인딩 방식으로 운�
 
 <br>
 
-> Gunicorn 설치 방법
+> Gunicorn 세팅 방법
 
 - 설치
 
 ```bash
 $ pip install gunicorn
 ```
+
+<br>
 
 - 테스트
 
@@ -39,8 +41,6 @@ gunicorn --bind unix:/tmp/bgflask.sock "app:create_app()"
 ```
 
 <br>
-
-> Gunicorn 세팅 방법
 
 - 서비스 파일 생성 (/etc/systemd/system/bgflask.service)
 
@@ -59,12 +59,16 @@ ExecStart=/usr/local/bin/gunicorn --workers 2 --bind unix:/tmp/bgflask.sock "app
 WantedBy=multi-user.target
 ```
 
+<br>
+
 - 환경 변수 파일 생성 (/rss/python-server/env/bgflask.env)
 
 ```bash
 FLASK_APP=app
 FLASK_ENV=production
 ```
+
+<br>
 
 - 서비스 실행 및 등록
 
@@ -75,6 +79,8 @@ $ systemctl start bgflask.service
 $ systemctl enable bgflask.service
 ```
 
+<br>
+
 - 오류 발생 시 로그 확인
 
 ```bash
@@ -83,15 +89,15 @@ $ cat /var/log/syslog
 
 <br>
 
-> Nginx 설치 방법
+> Nginx 세팅 방법
+
+- 설치
 
 ```bash
 $ apt install nginx
 ```
 
 <br>
-
-> Nginx 세팅 방법
 
 - Nginx 설정 파일 생성 (HTTPS 적용)
 
@@ -129,6 +135,8 @@ server {
 }
 ```
 
+<br>
+
 - Nginx 설정 파일을 환경 파일로 등록
 
 ```bash
@@ -141,11 +149,15 @@ $ rm default
 $ ln -s /etc/nginx/sites-available/bgflask
 ```
 
+<br>
+
 - Nginx 재시작
 
 ```bash
 $ systemctl restart nginx
 ```
+
+<br>
 
 - Nginx 문법 오류 여부 확인 (오류 있을 시 설정 파일 재작성 후 Nginx를 껐다가 다시 켜야한다.)
 

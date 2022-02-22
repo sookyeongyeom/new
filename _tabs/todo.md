@@ -7,6 +7,27 @@ order: 3
 <table>
     <thead>
         <tr align=center>
+            <th>22/02/22 화</th>
+            <th>Schedules</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input type=checkbox >ㅤ점심 약속<br>
+                <input type=checkbox >ㅤ오후 8시 브로콜리 회의<br>
+                <input type=checkbox >ㅤ브로콜리 백엔드 세부 개선<br>
+            </td>
+            <td>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr align=center>
             <th>22/02/21 월</th>
             <th>Schedules</th>
         </tr>

@@ -1,9 +1,9 @@
 ---
-title: Mysql 레코드 단위로 정돈하여 출력하기
+title: MySql 레코드 단위로 정돈하여 출력하기
 category: MySql
 ---
 
-> Mysql 레코드 단위로 정돈하여 출력하기
+> MySql 레코드 단위로 정돈하여 출력하기
 
 쿼리의 끝에 ; 대신 \\G 를 붙여준다.
 

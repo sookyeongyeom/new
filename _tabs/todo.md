@@ -7,6 +7,26 @@ order: 3
 <table>
     <thead>
         <tr align=center>
+            <th>22/02/23 수</th>
+            <th>Schedules</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input type=checkbox checked>ㅤ앞으로의 공부 로드맵 짜기<br>
+                <input type=checkbox checked>ㅤPowershell + VSCode 꾸미기<br>
+            </td>
+            <td>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ목요일 오후 7시 성냥개비<br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr align=center>
             <th>22/02/22 화</th>
             <th>Schedules</th>
         </tr>
@@ -19,7 +39,7 @@ order: 3
                 <input type=checkbox checked>ㅤ브로콜리 백엔드 세부 개선<br>
             </td>
             <td>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 브로콜리<br>
             </td>
         </tr>
     </tbody>
@@ -38,7 +58,7 @@ order: 3
                 <input type=checkbox checked>ㅤ브로콜리 서버 재구축<br>
             </td>
             <td>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 브로콜리<br>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 재구축<br>
             </td>
         </tr>
@@ -60,7 +80,7 @@ order: 3
                 <input type=checkbox checked>ㅤ오후 5시 저녁 식사<br>
             </td>
             <td>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 브로콜리<br>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 재구축<br>
             </td>
         </tr>
@@ -82,7 +102,7 @@ order: 3
                 <input type=checkbox checked>ㅤ점심 약속<br>
             </td>
             <td>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 브로콜리<br>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 재구축<br>
             </td>
         </tr>
@@ -102,7 +122,7 @@ order: 3
                 <input type=checkbox checked>ㅤ네이버 블로그 크롤링 프로그램<br>
             </td>
             <td>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 브로콜리<br>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 재구축<br>
             </td>
         </tr>
@@ -122,7 +142,7 @@ order: 3
                 <input type=checkbox checked>ㅤ리크루팅 페이지 백엔드 작업<br>
             </td>
             <td>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 브로콜리<br>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 재구축<br>
             </td>
         </tr>
@@ -143,7 +163,7 @@ order: 3
                 <input type=checkbox checked>ㅤ리크루팅 페이지 프론트 작업<br>
             </td>
             <td>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 브로콜리<br>
             </td>
         </tr>
     </tbody>
@@ -165,7 +185,7 @@ order: 3
                 <input type=checkbox checked>ㅤ브로콜리 신규회원 정보<br>
             </td>
             <td>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 브로콜리<br>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 구축<br>
             </td>
         </tr>
@@ -187,7 +207,7 @@ order: 3
                 <input type=checkbox checked>ㅤ저녁 약속
             </td>
             <td>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 브로콜리<br>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 구축<br>
             </td>
         </tr>
@@ -207,7 +227,7 @@ order: 3
                 <input type=checkbox checked>ㅤ티스토리 잔디 다크 모드 작업
             </td>
             <td>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 브로콜리<br>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 구축<br>
             </td>
         </tr>
@@ -228,7 +248,7 @@ order: 3
                 <input type=checkbox checked>ㅤ밀린 연락 답장
             </td>
             <td>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 브로콜리<br>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 구축<br>
             </td>
         </tr>
@@ -248,7 +268,7 @@ order: 3
                 <input type=checkbox checked>ㅤTIL Migration 마무리
             </td>
             <td>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 브로콜리<br>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 구축<br>
             </td>
         </tr>
@@ -271,8 +291,8 @@ order: 3
                 <input type=checkbox checked>ㅤ블로그 스터디 신규회원 초대<br>
             </td>
             <td>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ내일 오후 7시 - 파이썬 수업<br>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ내일 오후 7시 파이썬 수업<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 브로콜리<br>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 구축<br>
             </td>
         </tr>
@@ -295,8 +315,8 @@ order: 3
                 <input type=checkbox checked>ㅤ오후 8시 파이썬 수업<br>
             </td>
             <td>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ내일 오후 7시 - 파이썬 수업<br>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 - 브로콜리<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ내일 오후 7시 파이썬 수업<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ화요일 오후 8시 브로콜리<br>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤFlask 구축 <br>
             </td>
         </tr>

@@ -14,9 +14,9 @@ order: 3
     <tbody>
         <tr>
             <td>
-                <input type=checkbox >ㅤPCR<br>
-                <input type=checkbox >ㅤ정규표현식<br>
-                <input type=checkbox >ㅤ밑바닥 컴퓨팅 1장 프로젝트<br>
+                <input type=checkbox>ㅤPCR<br>
+                <input type=checkbox>ㅤ정규표현식<br>
+                <input type=checkbox>ㅤ밑바닥 컴퓨팅 1장 프로젝트<br>
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤ브로콜리 서버 개선<br>

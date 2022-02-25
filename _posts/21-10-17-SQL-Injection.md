@@ -1,6 +1,6 @@
 ---
 title: SQL Injection
-category: Webhacking
+category: [Study, Webhacking]
 ---
 
 # SQL Injection : 개념 및 공격 기법

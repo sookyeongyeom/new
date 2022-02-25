@@ -1,6 +1,6 @@
 ---
 title: 네트워크 게임 - 기초 이론
-category: Game
+category: [Study, Game]
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: Background (&)
-category: Linux
+category: [Study, Linux]
 ---
 
 > Background에서 작업 실행

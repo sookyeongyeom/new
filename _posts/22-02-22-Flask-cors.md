@@ -1,6 +1,6 @@
 ---
 title: Flask CORS 설정
-category: Flask
+category: [Back-End, Flask]
 ---
 
 > Flask CORS 설정

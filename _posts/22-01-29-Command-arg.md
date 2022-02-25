@@ -1,6 +1,6 @@
 ---
 title: 명령행 인수 받기
-category: Python
+category: [Study, Python]
 ---
 
 # 명령행 인수 받기

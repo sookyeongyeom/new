@@ -1,6 +1,6 @@
 ---
 title: 프로토콜 (Protocol)
-category: Computer
+category: [Study, Computer]
 ---
 
 # 프로토콜 (Protocol)

@@ -1,7 +1,7 @@
 ---
 title: iptables 방화벽 포트 개방
 date: 22-02-14 08:00:00 + 0900
-category: Linux
+category: [Study, Linux]
 ---
 
 > 방화벽 설정 확인

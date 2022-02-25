@@ -1,6 +1,6 @@
 ---
 title: 한글 종성 유무의 판별
-category: PHP
+category: [Back-End, PHP]
 ---
 
 # 한글 종성 유무의 판별

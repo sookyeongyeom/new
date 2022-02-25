@@ -1,6 +1,6 @@
 ---
 title: pip 재설치
-category: Linux
+category: [Study, Linux]
 ---
 
 # pip 재설치

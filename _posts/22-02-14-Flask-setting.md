@@ -1,7 +1,7 @@
 ---
 title: Flask 서버 배포 기본 세팅 (feat. 가비아 서버호스팅)
 date: 22-02-14 07:00:00 + 0900
-category: Flask
+category: [Back-End, Flask]
 ---
 
 # 0. 요약

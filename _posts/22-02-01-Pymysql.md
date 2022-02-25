@@ -1,6 +1,6 @@
 ---
 title: Python-MySql 연동하기 with PyMySql
-category: Python
+category: [Study, Python]
 ---
 
 # Python-MySql 연동하기 with PyMySql

@@ -1,6 +1,6 @@
 ---
 title: Jekyll Chirpy 테마 - 말머리에 카테고리 출력하기 | Chirpy 커스터마이징
-category: Blog
+category: [Project, Blog]
 ---
 
 # 1. 계기

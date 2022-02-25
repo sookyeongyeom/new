@@ -1,6 +1,6 @@
 ---
 title: Python 연습문제 만들기
-category: Python
+category: [Study, Python]
 ---
 
 # Python 연습문제 만들기

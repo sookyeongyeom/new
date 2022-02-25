@@ -1,6 +1,6 @@
 ---
 title: SFTP 연결 및 파일 전송 Command
-category: Computer
+category: [Study, Computer]
 ---
 
 # SFTP 연결 및 파일 전송 Command

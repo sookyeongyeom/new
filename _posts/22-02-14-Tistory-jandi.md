@@ -1,6 +1,6 @@
 ---
 title: Tistory - 티스토리에 깃허브처럼 잔디 깔기! | Tistory 커스터마이징
-category: Blog
+category: [Project, Blog]
 ---
 
 

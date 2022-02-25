@@ -1,7 +1,7 @@
 ---
 title: Flask 환경변수 설정
 date: 22-02-14 10:00:00 + 0900
-category: Flask
+category: [Back-End, Flask]
 ---
 
 > FLASK_APP

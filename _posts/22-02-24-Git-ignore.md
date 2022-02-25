@@ -1,6 +1,6 @@
 ---
 title: Gitignore 적용 전 캐시 삭제하기
-category: Git
+category: [Study, Git]
 ---
 
 > Gitignore 적용 전 캐시 삭제하기

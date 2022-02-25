@@ -1,6 +1,6 @@
 ---
 title: 사용자 계정 비밀번호 변경
-category: Linux
+category: [Study, Linux]
 ---
 
 # 사용자 계정 비밀번호 변경

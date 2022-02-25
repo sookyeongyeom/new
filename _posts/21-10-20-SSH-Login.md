@@ -1,6 +1,6 @@
 ---
 title: SSH 공개키 인증을 사용하여 로그인하는 방법
-category: Computer
+category: [Study, Computer]
 ---
 
 # SSH 공개키 인증을 사용하여 로그인하는 방법

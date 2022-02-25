@@ -1,6 +1,6 @@
 ---
 title: 방화벽 (Firewall)
-category: Computer
+category: [Study, Computer]
 ---
 
 # 방화벽 (Firewall)

@@ -1,6 +1,6 @@
 ---
 title: Flask production server (Nginx+Gunicorn)
-category: Flask
+category: [Back-End, Flask]
 ---
 
 > Flask production server 구조

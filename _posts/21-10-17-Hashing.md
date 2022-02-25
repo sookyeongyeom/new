@@ -1,6 +1,6 @@
 ---
 title: 해싱 (Hashing)
-category: Computer
+category: [Study, Computer]
 ---
 
 # 해싱 (Hashing)

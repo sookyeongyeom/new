@@ -1,6 +1,6 @@
 ---
 title: RSS 크롤링
-category: Python
+category: [Study, Python]
 ---
 
 # RSS 크롤링

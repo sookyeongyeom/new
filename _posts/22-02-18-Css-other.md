@@ -1,6 +1,6 @@
 ---
 title: checked 상태에 따라 display ON/OFF
-category: CSS
+category: [Front-End, CSS]
 ---
 
 > checked 상태에 따라 display ON/OFF

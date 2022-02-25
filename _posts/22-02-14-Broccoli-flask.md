@@ -1,7 +1,7 @@
 ---
 title: Flask 작업 환경 공유
 date: 22-02-14 11:00:00 + 0900
-category: four-broccolis
+category: [Project, Four-Broccolis]
 ---
 
 > 단축어 (아무 곳에서나 실행해도 됩니다.)

@@ -1,6 +1,6 @@
 ---
 title: 이모티콘(emoji) 저장하기
-category: MySql
+category: [Study, MySql]
 ---
 
 # MySql 이모티콘(emoji) 저장하기

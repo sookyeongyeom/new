@@ -1,6 +1,6 @@
 ---
 title: VSCode 터미널 색 테마 커스터마이징
-category: VSCode
+category: [Study, VSCode]
 ---
 
 > VSCode 터미널 색 테마 커스터마이징

@@ -1,6 +1,6 @@
 ---
 title: Jekyll Chirpy 테마 - 전체 포스팅 개수 출력하기 | Chirpy 커스터마이징
-category: Blog
+category: [Project, Blog]
 ---
 
 # 1. 계기
@@ -53,6 +53,34 @@ _layouts 디렉토리 내부의 home.html 을 열어보면, <\!-- Get default po
 ```
 
 추가 후 저장하면 바로 적용되는 모습을 볼 수 있다!
+
+## 한계점 (22.02.26 Update)
+
+위 코드는 모든 포스팅에 상위 카테고리가 없어야 정상적으로 작동한다.
+
+상위 카테고리가 존재할 시, 그 또한 독립적인 하나의 카테고리로 들어가기 때문에 포스팅 개수가 2배가 되는 문제가 발생한다.
+
+이 문제를 해결하려면 카테고리의 상하위 계층 정보를 검사해주어야 하는데, 그러기에는 카테고리 관련 데이터 구조가 너무 불편하게 생겨먹었다..
+
+상위 카테고리를 꼭 만들고 싶다면 낱개로 남는 카테고리 없이 전부 다 상위 카테고리를 생성해주어 마지막 total 값에서 나누기 2만 해주는 방향으로 접근하는 편이 깔끔할 것 같다 ㅠ
+
+다음은 모든 카테고리에 대해 상위 카테고리를 생성해준 후 total에 나누기 2를 해준 경우의 코드다.
+
+```html
+<!-- Total post size -->
+{% raw %}{% for category in site.categories %}
+{% assign category_name = category | first %}
+{% assign many = site.categories[category_name] | size %}
+{% assign total = total | plus: many %}
+{% if forloop.last %}
+<h1>Total ({{ total | divided_by: 2 }})</h1>
+{% endif %}
+{% endfor %}{% endraw %}
+```
+
+이 경우 카테고리는 다음과 같이 세팅해주어야 한다. (낱개로 남아서 돌아다니는 카테고리가 없게!)
+
+![image](https://user-images.githubusercontent.com/98504939/155775310-78e26eb1-0085-4570-837e-0fba39406e04.png)
 
 ## home.html이 아닌 다른 레이아웃에 적용하고 싶다면?
 

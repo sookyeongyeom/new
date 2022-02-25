@@ -1,6 +1,6 @@
 ---
 title: Git 기초
-category: Git
+category: [Study, Git]
 ---
 
 # Git 기초

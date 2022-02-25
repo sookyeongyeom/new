@@ -1,6 +1,6 @@
 ---
 title: 타이핑 효과
-category: Python
+category: [Study, Python]
 ---
 
 # 타이핑 효과

@@ -1,6 +1,6 @@
 ---
 title: 사운드 재생
-category: Python
+category: [Study, Python]
 ---
 
 > playsound로 사운드 재생

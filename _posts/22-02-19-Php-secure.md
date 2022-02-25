@@ -1,6 +1,6 @@
 ---
 title: PHP Prepared Statement (SQL Injection Secure Coding)
-category: PHP
+category: [Back-End, PHP]
 ---
 
 > PHP Prepared Statement

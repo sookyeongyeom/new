@@ -1,7 +1,7 @@
 ---
 title: Powershell 시스템에서 한글 인식하게끔 하기
 date: 22-02-23 18:00:00 + 0900
-category: Powershell
+category: [Study, Powershell]
 ---
 
 > 발단

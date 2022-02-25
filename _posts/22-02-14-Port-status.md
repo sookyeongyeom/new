@@ -1,7 +1,7 @@
 ---
 title: netstat 포트 확인
 date: 22-02-14 09:00:00 + 0900
-category: Linux
+category: [Study, Linux]
 ---
 
 > 열려있는 모든 포트 확인

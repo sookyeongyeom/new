@@ -1,6 +1,6 @@
 ---
 title: HTTPS 자물쇠 달기 (Let's Encrypt)
-category: Linux
+category: [Study, Linux]
 ---
 
 > Let's Encrypt란?

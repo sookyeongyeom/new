@@ -1,6 +1,6 @@
 ---
 title: checked 상태에 따라 label 꾸미기
-category: CSS
+category: [Front-End, CSS]
 ---
 
 > checked 상태에 따라 label 꾸미기

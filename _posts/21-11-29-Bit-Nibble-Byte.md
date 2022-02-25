@@ -1,6 +1,6 @@
 ---
 title: Bit, Nibble, Byte 및 2진수, 10진수, 16진수
-category: Computer
+category: [Study, Computer]
 ---
 
 # Bit, Nibble, Byte 및 2진수, 10진수, 16진수 정리

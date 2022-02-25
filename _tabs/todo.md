@@ -7,6 +7,46 @@ order: 3
 <table>
     <thead>
         <tr align=center>
+            <th>22/02/25 금</th>
+            <th>Schedules</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input type=checkbox>ㅤ혼자 공부하는 C언어<br>
+                <input type=checkbox>ㅤ밑바닥부터 만드는 컴퓨팅 시스템<br>
+            </td>
+            <td>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ브로콜리 서버 개선<br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr align=center>
+            <th>22/02/24 목</th>
+            <th>Schedules</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input type=checkbox checked>ㅤ혼자 공부하는 C언어 ~71p<br>
+                <input type=checkbox checked>ㅤ오후 7시 성냥개비<br>
+            </td>
+            <td>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ브로콜리 서버 개선<br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr align=center>
             <th>22/02/23 수</th>
             <th>Schedules</th>
         </tr>

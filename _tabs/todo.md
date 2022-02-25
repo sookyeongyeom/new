@@ -7,6 +7,28 @@ order: 3
 <table>
     <thead>
         <tr align=center>
+            <th>22/02/26 토</th>
+            <th>Schedules</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input type=checkbox >ㅤPCR<br>
+                <input type=checkbox >ㅤ정규표현식<br>
+                <input type=checkbox >ㅤ밑바닥 컴퓨팅 1장 프로젝트<br>
+            </td>
+            <td>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ브로콜리 서버 개선<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ일요일 오후 2시반 멘토링<br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr align=center>
             <th>22/02/25 금</th>
             <th>Schedules</th>
         </tr>
@@ -14,11 +36,11 @@ order: 3
     <tbody>
         <tr>
             <td>
-                <input type=checkbox>ㅤ혼자 공부하는 C언어<br>
-                <input type=checkbox>ㅤ밑바닥부터 만드는 컴퓨팅 시스템<br>
+                <input type=checkbox checked>ㅤ밑바닥 컴퓨팅 1장<br>
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤ브로콜리 서버 개선<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ일요일 오후 2시반 멘토링<br>
             </td>
         </tr>
     </tbody>
@@ -34,7 +56,7 @@ order: 3
     <tbody>
         <tr>
             <td>
-                <input type=checkbox checked>ㅤ혼자 공부하는 C언어 ~71p<br>
+                <input type=checkbox checked>ㅤ혼자 공부하는 C언어 1~71p<br>
                 <input type=checkbox checked>ㅤ오후 7시 성냥개비<br>
             </td>
             <td>

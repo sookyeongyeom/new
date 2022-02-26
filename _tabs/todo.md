@@ -7,7 +7,7 @@ order: 3
 <table>
     <thead>
         <tr align=center>
-            <th>22/02/26 토</th>
+            <th>22/02/27 일</th>
             <th>Schedules</th>
         </tr>
     </thead>
@@ -15,8 +15,29 @@ order: 3
         <tr>
             <td>
                 <input type=checkbox>ㅤPCR<br>
-                <input type=checkbox>ㅤ정규표현식<br>
+                <input type=checkbox>ㅤ오후 2시반 멘토링<br>
                 <input type=checkbox>ㅤ밑바닥 컴퓨팅 1장 프로젝트<br>
+            </td>
+            <td>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ브로콜리 서버 개선<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ일요일 오후 2시반 멘토링<br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr align=center>
+            <th>22/02/26 토</th>
+            <th>Schedules</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input type=checkbox checked>ㅤ배경지식<br>
+                <input type=checkbox>ㅤ정규표현식<br>
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤ브로콜리 서버 개선<br>

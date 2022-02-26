@@ -1,6 +1,6 @@
 ---
 title: Git 직전과 금번 Commit을 하나로 정리
-category: [Study, Git]
+category: [Tools, Git]
 ---
 
 > Git 직전과 금번 Commit을 하나로 정리

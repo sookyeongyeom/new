@@ -1,6 +1,6 @@
 ---
 title: Git 변경 사항 되돌리기
-category: [Study, Git]
+category: [Tools, Git]
 ---
 
 

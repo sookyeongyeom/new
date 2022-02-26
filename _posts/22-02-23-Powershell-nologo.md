@@ -1,6 +1,6 @@
 ---
 title: Powershell 시작 안내 문구 끄기
-category: [Study, Powershell]
+category: [Tools, Powershell]
 ---
 
 > Powershell 시작 안내 문구 끄기

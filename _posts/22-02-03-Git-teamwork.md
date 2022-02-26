@@ -1,6 +1,6 @@
 ---
 title: Git으로 협업하기
-category: [Study, Git]
+category: [Tools, Git]
 ---
 
  

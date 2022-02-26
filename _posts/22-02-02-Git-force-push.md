@@ -1,6 +1,6 @@
 ---
 title: Git 강제 push
-category: [Study, Git]
+category: [Tools, Git]
 ---
 
 # Git 강제 push

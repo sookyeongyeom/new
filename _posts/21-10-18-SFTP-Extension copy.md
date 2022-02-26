@@ -1,6 +1,6 @@
 ---
 title: VSCode에서 SFTP Extension 사용하기
-category: [Study, VSCode]
+category: [Tools, VSCode]
 ---
 
 # VSCode SFTP Extension

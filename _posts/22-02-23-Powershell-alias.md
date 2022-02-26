@@ -1,6 +1,6 @@
 ---
 title: Powershell alias 영구 등록
-category: [Study, Powershell]
+category: [Tools, Powershell]
 ---
 
 > Powershell alias 영구 등록

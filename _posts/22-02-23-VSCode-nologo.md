@@ -1,6 +1,6 @@
 ---
 title: VSCode 터미널 시작 안내 문구 끄기
-category: [Study, VSCode]
+category: [Tools, VSCode]
 ---
 
 > VSCode 터미널 시작 안내 문구 끄기

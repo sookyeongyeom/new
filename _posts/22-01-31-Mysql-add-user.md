@@ -1,6 +1,6 @@
 ---
 title: MySql 사용자 추가
-category: [Study, MySql]
+category: [Back-End, MySql]
 ---
 
 # MySql 사용자 추가

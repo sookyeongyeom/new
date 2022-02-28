@@ -25,8 +25,24 @@ tail_includes:
 
 <div class="post-meta text-muted">
 
-  <!-- author -->
   <div>
+    <a href="https://hits.seeyoufarm.com">
+      <style>
+        .hits {
+          width: auto;
+          height: auto;
+          max-width: 140px;
+          max-height: 60px;
+        }
+      </style>
+      <img class="hits"
+        src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsookyeongyeom.github.io{{ page.url }}&count_bg=%23f48399&title_bg=%23ffb6c1&icon=&icon_color=%23E7E7E7&title=✚&edge_flat=false" />
+    </a>
+  </div>
+
+  <!-- author
+  <div>
+    {% comment %}
     {% capture author_name %}{{ page.author.name | default: site.social.name }}{% endcapture %}
     {% assign author_link = nil %}
 
@@ -43,8 +59,9 @@ tail_includes:
       {% else %}
       {{ author_name }}
       {% endif %}
+      {% endcomment %}
     </em>
-  </div>
+  </div> -->
 
   <div class="d-flex">
     <div>

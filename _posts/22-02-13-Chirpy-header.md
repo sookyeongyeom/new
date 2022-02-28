@@ -8,7 +8,7 @@ category: [Project, Blog]
 카테고리 구분용 말머리를 자동으로 달아주고 싶다... 는 마음에서 작업해보았다.
 
 
-# 2. 생김새
+# 2. 완성본
 
 ## HOME 포스팅 제목에 말머리 추가
 <img src="https://user-images.githubusercontent.com/98504939/153746948-4083b38c-0225-48cb-a710-287f12dd84ed.png">
@@ -27,13 +27,13 @@ HOME과 동일하게 카테고리 링크를 걸어줄 수 있긴 하지만, 왼�
 Class를 지정해서 둘 중 하나에서만 동그라미가 나오게끔 해주면 되지만 해당 부분에 대해서는 이 포스팅에서 다루지 않았다.
 
 
-# 3. 말머리에 카테고리 출력 방법
+# 3. 적용 방법
 
 말머리에 카테고리명을 출력하고 해당 부분에 카테고리 링크를 달아준 HOME을 기준으로 안내한다.
 
 ## 템플릿에 다음 코드를 추가한다. (끝!)
 
-_layout > home.html에 들어가 post-list 단락을 찾은 후 다음과 같이 내용을 변경해준다.
+_layout > home.html 에 들어가 post-list 단락을 찾은 후 다음과 같이 내용을 변경해준다.
 
 ```html
 <div id="post-list">
@@ -56,7 +56,7 @@ _layout > home.html에 들어가 post-list 단락을 찾은 후 다음과 같이
 
 ## 링크 없이 카테고리명만 출력하기
 
-다음은 _layout > archive.html에 적용한 코드다. (카테고리 링크 적용 X)
+다음은 _layout > archive.html 에 적용한 코드다. (카테고리 링크 적용 X)
 
 ```html
 {% raw %}{% assign many = post.categories | size %}

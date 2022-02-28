@@ -7,6 +7,34 @@ order: 3
 <table>
     <thead>
         <tr align=center>
+            <th>22/02/28 월</th>
+            <th>Schedules</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input type=checkbox checked>ㅤ포스트에 카테고리 추가<br>
+                <input type=checkbox checked>ㅤ사이드 패널에 최근 글/추천 글/방문자수 추가<br>
+                <input type=checkbox checked>ㅤ검색 화면 제목 색상 수정<br>
+                <input type=checkbox checked>ㅤ트위터 개설<br>
+                <input type=checkbox checked>ㅤC# 프로그래밍<br>
+                <input type=checkbox checked>ㅤ브로콜리 서버 개선 - Title 컬럼 크기<br>
+                <input type=checkbox checked>ㅤ브로콜리 서버 개선 - 데몬 로직 개선<br>
+            </td>
+            <td>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ브로콜리 서버 개선<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤC#<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤUnity<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ밑바닥부터 만드는 컴퓨팅 시스템<br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr align=center>
             <th>22/02/27 일</th>
             <th>Schedules</th>
         </tr>
@@ -14,13 +42,11 @@ order: 3
     <tbody>
         <tr>
             <td>
-                <input type=checkbox>ㅤPCR<br>
-                <input type=checkbox>ㅤ오후 2시반 멘토링<br>
-                <input type=checkbox>ㅤ밑바닥 컴퓨팅 1장 프로젝트<br>
+                <input type=checkbox checked>ㅤPCR<br>
+                <input type=checkbox checked>ㅤC# 프로그래밍<br>
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤ브로콜리 서버 개선<br>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ일요일 오후 2시반 멘토링<br>
             </td>
         </tr>
     </tbody>
@@ -37,11 +63,10 @@ order: 3
         <tr>
             <td>
                 <input type=checkbox checked>ㅤ배경지식<br>
-                <input type=checkbox>ㅤ정규표현식<br>
+                <input type=checkbox checked>ㅤ정규표현식<br>
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤ브로콜리 서버 개선<br>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ일요일 오후 2시반 멘토링<br>
             </td>
         </tr>
     </tbody>
@@ -61,7 +86,6 @@ order: 3
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤ브로콜리 서버 개선<br>
-                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ일요일 오후 2시반 멘토링<br>
             </td>
         </tr>
     </tbody>

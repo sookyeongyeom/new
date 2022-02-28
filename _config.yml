@@ -169,6 +169,12 @@ exclude:
   - gulpfile.js
   - node_modules
   - package*.json
+  - Gemfile
+  - Gemfile.lock
+  - .vscode
+  - .git
+  - .gitignore
+  - .DS_Store
 
 jekyll-archives:
   enabled: [categories, tags]

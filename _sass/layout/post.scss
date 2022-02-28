@@ -64,6 +64,10 @@ img.preview-img {
   line-height: 2rem;
 }
 
+.bottom-page-nav {
+  color: #da8b8b;
+}
+
 .post-navigation {
   padding-top: 3rem;
   padding-bottom: 4rem;
@@ -74,9 +78,9 @@ img.preview-img {
     color: var(--link-color);
 
     &:hover {
-      background: #2a408e;
-      color: #fff;
-      border-color: #2a408e;
+      background: #ffdddd;
+      // color: #fff;
+      border-color: #ffdddd;
     }
 
     &.disabled {
@@ -85,7 +89,7 @@ img.preview-img {
       pointer-events: auto;
       cursor: not-allowed;
       background: none;
-      color: gray;
+      color: #da8b8b;
 
       &:hover {
         border-color: none;

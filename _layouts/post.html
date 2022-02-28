@@ -21,7 +21,7 @@ tail_includes:
   height="{{ page.image.h }}" {% endif %}>
 {% endif %}
 
-<h1 data-toc-skip>{{ page.title }}</h1>
+<h1 data-toc-skip><span style="color:#da8b8b">{{ page.categories[1] }}&nbsp;›</span>&nbsp;{{ page.title }}</h1>
 
 <div class="post-meta text-muted">
 
@@ -136,3 +136,21 @@ tail_includes:
 <script src="https://utteranc.es/client.js" repo="sookyeongyeom/sookyeongyeom.github.io" issue-term="pathname"
   theme="github-light" crossorigin="anonymous" async>
   </script>
+
+<!-- 최근 댓글 패널 : 트래픽 초과로 운용 불가 -->
+<!-- <script>
+  let get_data = function (data) {
+    for (i = 0; i < data.length; i++) {
+      const issue = data[i];
+      const meta = issue["body"];
+      const arr = meta.split("sookyeong.dev");
+      const title = arr[0].slice(2, -3);
+      const link = arr[1].split("[")[1].split("]")[0];
+      var html = "<a href=\"" + link + "\">" + title + "</a>";
+      alert(html);
+    }
+  }
+  fetch("https://api.github.com/repos/sookyeongyeom/sookyeongyeom.github.io/issues")
+    .then((response) => response.json())
+    .then((data) => get_data(data));
+</script> -->

@@ -1061,6 +1061,8 @@ $sidebar-display: "sidebar-display";
   padding-bottom: 6rem;
 
   a {
+    color: #DA8B8B;
+
     &:hover {
       // @extend %link-hover;
       @include no-text-decoration;

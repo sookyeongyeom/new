@@ -9,7 +9,8 @@
         {% assign posts = site.posts | slice: 0, 3 %}
         {% for post in posts %}
         {% assign url = post.url | relative_url %}
-        <li><a href="{{ url }}">{{ post.title }}</a>
+        <li><a href="{{ url }}"><span style="color:#da8b8b">{{ post.categories[1] }}&nbsp;›&nbsp;</span>{{ post.title
+                }}</a>
         </li>
         {% endfor %}
     </ul>

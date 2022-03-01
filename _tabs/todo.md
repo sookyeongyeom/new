@@ -15,8 +15,8 @@ order: 3
         <tr>
             <td>
                 <input type=checkbox checked>ㅤ격리 해제<br>
-                <input type=checkbox >ㅤ저녁 약속<br>
-                <input type=checkbox >ㅤC# part1<br>
+                <input type=checkbox checked>ㅤ저녁 약속<br>
+                <input type=checkbox checked>ㅤC# part1<br>
                 <input type=checkbox checked>ㅤ브로콜리 피드 교체로 파싱 수정<br>
             </td>
             <td>

@@ -1,6 +1,6 @@
 ---
 title: 32비트 vs 64비트
-category: [Study, Notes]
+category: [Notes, Youtube]
 ---
 
 > 참고 유튜브

@@ -1,6 +1,6 @@
 ---
 title: Codec & Encoding
-category: [Study, Notes]
+category: [Notes, Youtube]
 ---
 
 > 참고 유튜브

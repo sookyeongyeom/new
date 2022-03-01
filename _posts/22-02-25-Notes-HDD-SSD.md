@@ -1,6 +1,6 @@
 ---
 title: HDD vs SSD
-category: [Study, Notes]
+category: [Notes, Youtube]
 ---
 
 > 참고 유튜브

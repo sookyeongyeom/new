@@ -64,7 +64,7 @@ order: 3
                 <input type=checkbox checked>ㅤ사이드 패널에 최근 글/추천 글/방문자수 추가<br>
                 <input type=checkbox checked>ㅤ검색 화면 제목 색상 수정<br>
                 <input type=checkbox checked>ㅤ트위터 개설<br>
-                <input type=checkbox checked>ㅤC# 프로그래밍<br>
+                <input type=checkbox checked>ㅤC# CH1~CH3<br>
                 <input type=checkbox checked>ㅤ브로콜리 서버 개선 - Title 컬럼 크기<br>
                 <input type=checkbox checked>ㅤ브로콜리 서버 개선 - 데몬 로직 개선<br>
             </td>

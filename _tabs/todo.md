@@ -7,6 +7,28 @@ order: 3
 <table>
     <thead>
         <tr align=center>
+            <th>22/03/05 토</th>
+            <th>Schedules</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input type=checkbox checked>ㅤC# CH6<br>
+                <input type=checkbox checked>ㅤ산책<br>
+            </td>
+            <td>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤC#<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤUnity<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ밑바닥부터 만드는 컴퓨팅 시스템<br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr align=center>
             <th>22/03/02 수</th>
             <th>Schedules</th>
         </tr>
@@ -14,8 +36,8 @@ order: 3
     <tbody>
         <tr>
             <td>
-                <input type=checkbox >ㅤC# CH5~CH7<br>
-                <input type=checkbox >ㅤ블로그 스터디 2월 리포트<br>
+                <input type=checkbox checked>ㅤC# CH5~CH6<br>
+                <input type=checkbox checked>ㅤ블로그 스터디 2월 리포트<br>
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤC#<br>

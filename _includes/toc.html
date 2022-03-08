@@ -1,11 +1,54 @@
-{% assign enable_toc = false %}
-{% if site.toc and page.toc %}
-{% if page.content contains '<h2' or page.content contains '<h3' %} {% assign enable_toc=true %} {% endif %} {% endif %}
-  {% if enable_toc %} <!-- BS-toc.js will be loaded at medium priority -->
-  <script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.js"></script>
+<div id="access-lastmod" class="post" style="display: none;">
+  <details open="true">
+    <summary>
+      <div class="panel-heading" id="bq_title"><span style="color: #da8b8b">❤&ensp;</span>목차 (Click to Close!)
+      </div>
+    </summary>
+    <ul class="post-content pl-0 pb-1 ml-1 mt-2" id="bq_toc">
+      <li>
+      </li>
+    </ul>
+  </details>
+</div>
 
-  <div id="toc-wrapper" class="pl-0 pr-4 mb-5">
-    <div class="panel-heading pl-3 pt-2 mb-2">{{- site.data.locales[lang].panel.toc -}}</div>
-    <nav id="toc" data-toggle="toc"></nav>
-  </div>
-  {% endif %}
+<style>
+  details>summary {
+    list-style: none;
+  }
+
+  details>summary::-webkit-details-marker {
+    display: none;
+  }
+</style>
+
+<script>
+  bq = document.getElementsByTagName('blockquote');
+  if (bq.length >= 1) {
+    document.getElementById("access-lastmod").style.display = "block";
+  }
+  bq_list = "<li><a href=\"#\">" + bq[0].textContent + "</a></li>";
+  for (i = 1; i < bq.length; i++) { bq[i].id = i; bq_list += "<li><a href=\"#" + i + "\">" + bq[i].textContent + "</a></li>"; }
+  document.getElementById('bq_toc').innerHTML = bq_list;
+</script>
+
+<script>
+  hd = document.getElementsByTagName('h1');
+  is_post = document.getElementById('is_post');
+  if (bq.length == 0 && hd.length >= 2 && is_post) {
+    document.getElementById("access-lastmod").style.display = "block";
+    hd_list = "<li><a href=\"#\">" + hd[1].textContent + "</a></li>";
+    for (i = 2; i < hd.length; i++) { hd[i].id = i; hd_list += "<li><a href=\"#" + i + "\">" + hd[i].textContent + "</a></li>"; }
+    document.getElementById('bq_toc').innerHTML = hd_list;
+  }
+</script>
+
+<script>
+  details = document.getElementsByTagName('details')[0];
+  details.addEventListener("toggle", event => {
+    if (details.open) {
+      document.getElementById('bq_title').innerHTML = "<span style=\"color: #da8b8b\">▼&ensp;</span>Click to Close 😺";
+    } else {
+      document.getElementById('bq_title').innerHTML = "<span style=\"color: #da8b8b\">▶&ensp;</span>Click to Open 😸";
+    }
+  });
+</script>

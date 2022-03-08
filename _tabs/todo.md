@@ -15,8 +15,9 @@ order: 3
         <tr>
             <td>
                 <input type=checkbox checked>ㅤC# CH7<br>
-                <input type=checkbox >ㅤC# CH8<br>
+                <input type=checkbox checked>ㅤC# CH8<br>
                 <input type=checkbox >ㅤC# CH9<br>
+                <input type=checkbox >ㅤC# CH10<br>
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤC#<br>

@@ -7,15 +7,17 @@ order: 3
 <table>
     <thead>
         <tr align=center>
-            <th>22/03/10 목</th>
+            <th>22/03/11 목</th>
             <th>Schedules</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>
-                <input type=checkbox >ㅤC# CH9<br>
-                <input type=checkbox >ㅤC# CH10<br>
+                <input type=checkbox checked>ㅤC# CH9<br>
+                <input type=checkbox checked>ㅤC# CH10<br>
+                <input type=checkbox >ㅤC# CH11<br>
+                <input type=checkbox >ㅤC# CH12<br>
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤC#<br>

@@ -7,6 +7,30 @@ order: 3
 <table>
     <thead>
         <tr align=center>
+            <th>22/03/16 수</th>
+            <th>Schedules</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input type=checkbox >ㅤC# CH11<br>
+                <input type=checkbox >ㅤC# CH12<br>
+                <input type=checkbox >ㅤC# CH13<br>
+                <input type=checkbox >ㅤ오후 9시 위드새내기 회의<br>
+            </td>
+            <td>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤC#<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤUnity<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ매주 월요일 오후 5시 풀씨 자료구조<br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr align=center>
             <th>22/03/11 목</th>
             <th>Schedules</th>
         </tr>
@@ -16,8 +40,6 @@ order: 3
             <td>
                 <input type=checkbox checked>ㅤC# CH9<br>
                 <input type=checkbox checked>ㅤC# CH10<br>
-                <input type=checkbox >ㅤC# CH11<br>
-                <input type=checkbox >ㅤC# CH12<br>
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤC#<br>

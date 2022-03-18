@@ -15,6 +15,7 @@ order: 3
         <tr>
             <td>
                 <input type=checkbox checked>ㅤ아침 산책<br>
+                <input type=checkbox checked>ㅤ책상 정리<br>
                 <input type=checkbox checked>ㅤ삼성페이 등록<br>
                 <input type=checkbox >ㅤC# CH11<br>
                 <input type=checkbox >ㅤC# CH12<br>

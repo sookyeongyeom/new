@@ -7,7 +7,7 @@ order: 3
 <table>
     <thead>
         <tr align=center>
-            <th>22/03/16 수</th>
+            <th>22/03/18 금</th>
             <th>Schedules</th>
         </tr>
     </thead>
@@ -17,7 +17,6 @@ order: 3
                 <input type=checkbox >ㅤC# CH11<br>
                 <input type=checkbox >ㅤC# CH12<br>
                 <input type=checkbox >ㅤC# CH13<br>
-                <input type=checkbox >ㅤ오후 9시 위드새내기 회의<br>
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤC#<br>

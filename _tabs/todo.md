@@ -7,6 +7,28 @@ order: 3
 <table>
     <thead>
         <tr align=center>
+            <th>22/03/19 토</th>
+            <th>Schedules</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input type=checkbox >ㅤC# CH12<br>
+                <input type=checkbox >ㅤC# CH13<br>
+            </td>
+            <td>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤC#<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤUnity<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ매주 월요일 오후 5시 풀씨 자료구조<br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr align=center>
             <th>22/03/18 금</th>
             <th>Schedules</th>
         </tr>
@@ -17,9 +39,8 @@ order: 3
                 <input type=checkbox checked>ㅤ아침 산책<br>
                 <input type=checkbox checked>ㅤ책상 정리<br>
                 <input type=checkbox checked>ㅤ삼성페이 등록<br>
+                <input type=checkbox checked>ㅤ정형외과<br>
                 <input type=checkbox checked>ㅤC# CH11<br>
-                <input type=checkbox >ㅤC# CH12<br>
-                <input type=checkbox >ㅤC# CH13<br>
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤC#<br>

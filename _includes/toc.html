@@ -1,7 +1,7 @@
 <div id="access-lastmod" class="post" style="display: none;">
   <details open="true">
     <summary>
-      <div class="panel-heading" id="bq_title"><span style="color: #da8b8b">❤&ensp;</span>목차 (Click to Close!)
+      <div class="panel-heading" id="bq_title"><span style="color: #da8b8b">▼&ensp;</span>Click to Close 😺
       </div>
     </summary>
     <ul class="post-content pl-0 pb-1 ml-1 mt-2" id="bq_toc">
@@ -27,7 +27,10 @@
     document.getElementById("access-lastmod").style.display = "block";
   }
   bq_list = "<li><a href=\"#\">" + bq[0].textContent + "</a></li>";
-  for (i = 1; i < bq.length; i++) { bq[i].id = i; bq_list += "<li><a href=\"#" + i + "\">" + bq[i].textContent + "</a></li>"; }
+  for (i = 1; i < bq.length; i++) {
+    bq[i].id = i;
+    bq_list += "<li><a href=\"#" + i + "\">" + bq[i].textContent + "</a></li>";
+  }
   document.getElementById('bq_toc').innerHTML = bq_list;
 </script>
 

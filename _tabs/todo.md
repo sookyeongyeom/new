@@ -14,7 +14,7 @@ order: 3
     <tbody>
         <tr>
             <td>
-                <input type=checkbox >ㅤ절대강좌 유니티 CH3~CH5<br>
+                <input type=checkbox checked>ㅤ절대강좌 유니티 CH3<br>
             </td>
             <td>
                 <span style="color:rgb(218, 139, 139);">❤</span>ㅤC#<br>

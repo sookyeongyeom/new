@@ -7,6 +7,28 @@ order: 3
 <table>
     <thead>
         <tr align=center>
+            <th>22/03/29 화</th>
+            <th>Schedules</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <input type=checkbox >ㅤ절대강좌 유니티 CH3<br>
+                <input type=checkbox >ㅤ오후 7시 저녁 약속 분당<br>
+            </td>
+            <td>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤC#<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤUnity<br>
+                <span style="color:rgb(218, 139, 139);">❤</span>ㅤ매주 월요일 오후 5시 풀씨 자료구조<br>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr align=center>
             <th>22/03/24 목</th>
             <th>Schedules</th>
         </tr>
